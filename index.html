@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/Style.css">
+</head>
+    <header>
+    <p id="sout"></p>
+        <img id = "foto" src="WhatsApp Image 2025-09-12 at 22.20.47.jpeg" alt="">
+    </header>
+<body>
+    <h1>Seja Bem Vindo!</h1>
+    <p>Meu nome é Nícolas! Prazer em conhecê-lo!</p>
+    <h4>Estudante de Informática em: Ulbra São Lucas.</h4>
+    <br><br><br>
+    <h1>Sobre Mim: </h1>
+    <p> Meu nome é Nicolas Gabriel Silveira Fernandes, 
+        estudo informática na escola Ulbra São Lucas, iniciando no ramo da técnologia, 
+        vejo-me como uma pessoa muito comunicativa e compreensiva, buscando sempre se desenvolver, 
+        atualmente procuro terminar os estudos e ingressar em uma faculdade ou prestar o vestibular da ESA. Também trabalhando pela primeira vez como jovem aprendiz.
+   </p><br><br><br>
+   <h1>Formação e Cursos:</h1>
+   <br>
+   <p>Hoje, estou cursando o ensino médio, tenho cursos de:</p>
+    <ul>
+        <li>Montagem e manutenção de computadores - Básico</li>
+        <li>Criação de jogos - Básico</li>
+        <li>Power BI - Básico</li>
+        <li>Técnico em informática (cursando)</li>
+        <li>Linguagem Russa - Intermediário (cursando)</li>
+    </ul>
+    <br><br>
+    <h1>Projetos: </h1>
+    <ul>
+        <li><a href="https://github.com/NicolauDoMau/login_cadastro.git">Sistema de Login e Cadastro para páginas web em HTML</a></li>
+        <li><a href="https://github.com/NicolauDoMau/GerenciadorDeTarefas.git">Gerenciador de Tarefas em Java</a></li>
+        <li><a href="https://github.com/NicolauDoMau/Projeto-Zodiaco.git">Projeto sobre signos do Zodíaco em Java</a></li>
+    </ul>
+    <br><br>
+
+   
+</body>
+<footer>
+    <div id="footer-box">
+        <h2>Contato</h2>
+        <p>Email: Nicolas.fernandes02072009@gmail.com</p>
+        <p>Telefone: (51) 99378-0910</p>
+        <p>Instagram: @N.fernandes09</p>
+    </div>
+</footer>
+<script>
+    const text = 'System.out.println("Hello World!")';
+    const sout = document.getElementById('sout');
+    let i = 0;
+    function typeWriter() {
+        if (i < text.length) {
+            sout.textContent += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, 45);
+        }
+    }
+    typeWriter();
+</script>
+</html>
